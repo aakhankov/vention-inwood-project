@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap'); 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #FDFBF8;
+    color: #07484A;
+}
+header{
+    background-image: url(images/1screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+.deals{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    color: #07484A;
+}
+.container-main-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 52px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+.deals{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    color: #07484A;
+}
+.explore{
+    font-family: 'Open sans';
+    font-style:normal;
+    font-weight:400;
+    color: #07484A;
+}
+
+.button-shop{
+    background: #70908B;
+    border-radius: 10px;
+    border: 2px solid #70908B;
+    color: #FDFBF8;
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 700;
+}
+.logo{
+    
+}
+
+/* desktop */
+    .navbar{
+      width: 100%;  
+    }
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 100px;
+        min-width: 1920px;
+        width: 100%;
+        padding: 26px 150px;
+        background-color: rgba(255,255,255,0.3);
+    }
+    .nav-icons{
+        gap: 58px;
+        order: 2;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 38px;
+    }
+    .nav-link{
+        font-size: 20px;
+        line-height: 132.9%;
+        color: #07484A;
+        text-decoration: none;
+        letter-spacing: 0.01em;
+        gap: 58px;
+        /* transition: all 0.8s; */
+    }
+    .nav-link:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .nav-icon2{
+        display:none;
+    }
+    .nav-icon3{
+        order: 0;
+        width: 144px;
+        height: 36px;
+    }
+    .icon{
+        height: 30px;
+        width: 27px;
+    }
+    .nav-icons img{
+        height: 26px;
+    }
+    .container-main-screen{
+        min-width: 1920px;
+        min-height: 980px;
+        padding: 0px 150px 150px;
+        border-radius: 0px 0px 62px 62px;
+    }
+    .deals{
+        width: 668px;
+        height: 171px;
+        font-size: 64px;
+        line-height: 85px;
+        align-self: flex-start;
+        margin-bottom: 15px;
+    }
+    .explore{
+        width: 539px;
+        height: 33.06px;
+        font-size: 24px;
+        line-height: 33px;
+        align-self: flex-start;
+    }
+    .button-shop{
+        padding: 20px 40px;
+        font-size: 24px;
+        line-height: 33px;
+        align-self: flex-start;
+    } 
